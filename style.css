@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+.nav{
+    @apply bg-white flex flex-row h-14 drop-shadow-md   
+}
+.img{
+    @apply h-8 ml-32 mt-3 
+}
+.nav-divider{
+    @apply absolute content-none top-0 bottom-0 left-1 border border-black ml-80 h-12 mt-1
+}
+.first_nav_section{
+    @apply  ml-32 mt-3 
+}
+.second_nav_section{
+    @apply ml-80 mt-4
+}
+.ul{
+    @apply space-x-5 
+}
+.h1{
+    @apply  font-bold
+}
+
+.name{
+    @apply  hover:border-black hover:border-b-2 
+}
+.drop{
+     @apply hidden rounded-md border border-stone-400 drop-shadow-2xl flex  mt-2 space-x-8 ml-96 w-3/5 p-5  transition ease-in-out delay-1000
+}
+.galp{
+    @apply w-96 
+}
+.Fourboxes{
+    @apply flex justify-evenly p-5 m-5 
+}
+.Onebox{
+    @apply border border-black drop-shadow-2xl m-5 p-5 space-y-8 rounded-2xl
+}
+.Fourimages{
+    @apply rounded-2xl size-72
+}
+}
